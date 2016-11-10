@@ -1,9 +1,11 @@
 import React from 'react';
 
+import styles from './templatecomponent.scss';
+
 class TemplateComponent extends React.Component {
   render() {
     return (
-      <div>React App Template</div>
+      <div className={styles.prueba}>React App Template</div>
     );
   }
 }

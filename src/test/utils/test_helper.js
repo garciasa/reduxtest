@@ -20,3 +20,11 @@ Object.keys(document.defaultView).forEach((property) => {
 global.navigator = { userAgent: 'node.js'};
 global.expect = chai.expect;
 global.sinon = sinon;
+
+
+// Prevent mocha from interpreting SCSS @import files
+function noop() {
+  return null;
+}
+
+require.extensions['.scss'] = noop;
