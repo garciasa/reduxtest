@@ -1,0 +1,3 @@
+--compilers js:babel-register
+--full-trace
+src/test/**/*.test.js
