@@ -1,8 +1,4 @@
-@mixin border-radius($radius) {
-  border-radius: $radius;
+@mixin headline ($color, $size) {
+  color: $color;
+  font-size: $size;
 }
-
-.box {
-   @include border-radius(10px);
-   border: 1px solid black;
- }

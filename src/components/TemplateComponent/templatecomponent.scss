@@ -2,15 +2,12 @@
 @import "../mixins";
 
 .container{
-      @extend .box;
       background-color: $palette-red-50;
+      border: 1px solid black;
+      border-radius: 10px;
 }
 
 .text{
   margin-left: 10px;
-  color: $color-black;
-}
-
-.prueba{
-  display: flex
+  @include headline($color-black,19px);
 }
