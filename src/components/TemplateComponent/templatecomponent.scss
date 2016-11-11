@@ -1,4 +1,16 @@
+@import "../colors";
+@import "../mixins";
+
+.container{
+      @extend .box;
+      background-color: $palette-red-50;
+}
+
+.text{
+  margin-left: 10px;
+  color: $color-black;
+}
 
 .prueba{
-      background-color: green;
+  display: flex
 }
