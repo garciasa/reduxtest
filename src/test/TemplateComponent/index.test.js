@@ -1,5 +1,5 @@
 import React from 'react';
-import { mount, shallow, spyLifecycle } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 
 import TemplateComponent from '../../components/TemplateComponent';
 
