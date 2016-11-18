@@ -19,7 +19,6 @@ function makeid() {
 }
 
 export default (state = INITIAL_STATE, action) => {
-  console.log(action);
   switch (action.type) {
     case RANDOM_TEXT:
       return { ...state, text: makeid() };

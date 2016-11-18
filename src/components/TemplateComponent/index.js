@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Button from '../button';
+import Box from '../box';
 import styles from './templatecomponent.scss';
 
 
@@ -14,6 +15,7 @@ class TemplateComponent extends React.Component {
           </span>
         </div>
         <Button />
+        <Box />
       </div>
     );
   }
