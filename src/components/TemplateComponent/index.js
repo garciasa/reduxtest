@@ -1,6 +1,8 @@
 import React from 'react';
 
+import Button from '../button';
 import styles from './templatecomponent.scss';
+
 
 class TemplateComponent extends React.Component {
   render() {
@@ -11,6 +13,7 @@ class TemplateComponent extends React.Component {
             React App Template
           </span>
         </div>
+        <Button />
       </div>
     );
   }
