@@ -1,0 +1,2 @@
+# reduxtest
+Template React+Redux
